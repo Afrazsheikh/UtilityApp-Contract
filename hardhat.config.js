@@ -2,7 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
 
 
-const private_key = "1ab129de18e2934201d88fe80c7f842efc13e2c13fee8e8e1ca01e3368d040c4"
+const private_key = "Your walltet private Key"
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.16",
@@ -16,7 +16,7 @@ module.exports = {
     }
   },
   etherscan: {
-    apiKey:"GB83J8Z9WF5MS9SREWFH1GG13FPEF6XW3I",
+    apiKey:"etherScan private key",
  }
 
 };
